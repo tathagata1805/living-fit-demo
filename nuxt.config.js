@@ -3,6 +3,11 @@ const path = require('path');
 
 
 export default {
+  target: "static",
+  ssr: false,
+  generate: {
+    fallback: true
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nuxt-megamenu',
