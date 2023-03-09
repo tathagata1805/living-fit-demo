@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+*,:after,:before{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+section{
+    padding:70px 0;
+}
+.section-header{
+    margin-bottom:30px;
+    text-align: center;
+}
+.section-header h3{
+    font-size:40px;
+    font-weight: 700;
+}
+.section-header p{
+    font-size:16px;
+    color:#000;
+    margin-top:10px;
+    margin-bottom:0;
+}
+.inner-page-hero-section{
+    padding:0;
+}
+.inner-hero-cont{
+    height:400px;
+}
+.inner-hero-cont h1{
+    text-align: center;
+    color:#fff;
+    font-size:40px;
+    font-weight: 600;
+}
+@media(max-width:767px){
+    .inner-hero-cont h1{
+        font-size:30px;
+    }
+    section{
+        padding:40px 0;
+    }
+}
